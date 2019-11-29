@@ -572,6 +572,11 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  
+        <!-- Device-specific -->
+  <include name="snippets/nooks.xml" />
+  <include name="snippets/n80xx.xml" />
+  <include name="snippets/grandprimeve3g.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
